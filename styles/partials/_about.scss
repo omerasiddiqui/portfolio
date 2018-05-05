@@ -1,0 +1,42 @@
+#about .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: skewY(-3deg);
+
+  h2 {
+    font-size: 3.5rem;
+    text-shadow: 3px 3px 2px $primary-color;
+  }
+  .headshot {
+    width: 40%;
+    margin: 5% 0;
+    text-align: center;
+    p {
+      font-size: 0.8rem;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .underline {
+    border-bottom: 4px solid $secondary-color;
+  }
+  .about-me {
+    width: 45%;
+    margin-bottom: 10%;
+    h2 {
+      text-align: right;
+    }
+  }
+  .about-info {
+    border: 3px solid black;
+    padding: 5%;
+  }
+}
+
+#about {
+  background: white;
+  transform: skewY(3deg);
+
+}
