@@ -95,7 +95,7 @@
   transform: skewY(-3deg);
 }
 
-.project04, .project03, .project02, .project01, .project06 {
+.project07, .project06, .project04, .project03, .project02, .project01 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,11 +112,11 @@
   order: 1;
 }
 
-.project03 .project-text, .project01 .project-text {
+.project07 .project-text, .project03 .project-text, .project01 .project-text {
   order: -1;
 }
 
-.project04, .project02, .project06 {
+.project06, .project04, .project02 {
   text-align: right;
 }
 
@@ -168,14 +168,14 @@
     .project-text h3 {
       font-size: 2.0rem;
     }
-    .project04, .project03, .project02, .project01 {
+    .project06, .project04, .project03, .project02, .project01 {
       flex-direction: column;
       align-items: center;
       text-align: center;
       padding: 25% 0;
       width: 85%;
     }
-    .project06 {
+    .project07 {
       /* padding: 5% 0; */
       flex-direction: column;
       align-items: center;
@@ -190,7 +190,7 @@
     .project-text a {
       font-size: 1.6rem;
     }
-    .project03 .project-text, .project01 .project-text {
+    .project07 .project-text, .project03 .project-text, .project01 .project-text {
       order: 0;
     }
 
