@@ -16,7 +16,7 @@
       transform: skewY(3deg);
     }
     .innerwrapper {
-      transform: skewY(-3deg);
+      transform: skewY(3deg);
     }
 }
 
@@ -140,6 +140,7 @@
   display: flex;
   flex-direction: column;
   padding: 10% 0 5%;
+  transform: skewY(-6deg);
 }
 
 @media (max-width: $laptop ) {

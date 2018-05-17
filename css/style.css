@@ -655,6 +655,9 @@ p {
 body {
   background: #21b4e2; }
 
+button {
+  outline: none; }
+
 header {
   background: #21b4e2;
   height: 105vh;
@@ -748,7 +751,8 @@ span {
       outline: none; }
 
 button:focus {
-  outline-color: none; }
+  outline-color: none;
+  outline: none; }
 
 .hamburger:hover {
   opacity: 1; }
@@ -856,7 +860,8 @@ button:focus {
     #about .wrapper .headshot p {
       font-size: 0.8rem; }
     #about .wrapper .headshot img {
-      width: 100%; }
+      width: 100%;
+      border: 3px solid #02d1d1; }
   #about .wrapper span {
     color: black; }
   #about .wrapper .about-me {
@@ -1014,7 +1019,7 @@ i:hover {
     background: white;
     transform: skewY(3deg); }
   .portfolio .innerwrapper {
-    transform: skewY(-3deg); }
+    transform: skewY(3deg); }
 
 .portfolio .outerwrapper {
   background: white; }
@@ -1113,7 +1118,8 @@ i:hover {
 .portfolio-heading {
   display: flex;
   flex-direction: column;
-  padding: 10% 0 5%; }
+  padding: 10% 0 5%;
+  transform: skewY(-6deg); }
 
 @media (max-width: 1000px) {
   .outerwrapper {

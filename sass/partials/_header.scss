@@ -5,6 +5,10 @@ body {
 
 }
 
+button {
+  outline: none;
+}
+
 header {
   background:  rgba(33,180,226,1);
   height: 105vh;
@@ -125,6 +129,7 @@ header {
 
 button:focus {
   outline-color: none;
+  outline: none;
 }
 
 .hamburger:hover {
