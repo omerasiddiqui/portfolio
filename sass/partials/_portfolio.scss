@@ -24,7 +24,7 @@
   background: white;
 }
 
-.project01, .project02, .project03, .project04, .project06 {
+.project01, .project02, .project03, .project04, .project06, .project08 {
   display: flex;
   justify-content: space-between;
 }
@@ -97,7 +97,7 @@
   transform: skewY(-3deg);
 }
 
-.project07, .project06, .project04, .project03, .project02, .project01 {
+.project08, .project07, .project06, .project04, .project03, .project02, .project01 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,7 +118,7 @@
   order: -1;
 }
 
-.project06, .project04, .project02 {
+.project08, .project06, .project04, .project02 {
   text-align: right;
 }
 

@@ -655,6 +655,9 @@ p {
 body {
   background: #21b4e2; }
 
+nav {
+  height: 0; }
+
 button {
   outline: none; }
 
@@ -857,8 +860,6 @@ button:focus {
     width: 40%;
     margin: 5% 0;
     text-align: center; }
-    #about .wrapper .headshot p {
-      font-size: 0.8rem; }
     #about .wrapper .headshot img {
       width: 100%;
       border: 3px solid #02d1d1; }
@@ -887,6 +888,8 @@ button:focus {
     border: 3px solid black;
     padding: 5%;
     width: 50%; }
+    #about .wrapper .about-info p {
+      font-size: 1.5rem; }
 
 .project02, .project03, .project04 {
   padding: 5% 0; }
@@ -1024,7 +1027,7 @@ i:hover {
 .portfolio .outerwrapper {
   background: white; }
 
-.project01, .project02, .project03, .project04, .project06 {
+.project01, .project02, .project03, .project04, .project06, .project08 {
   display: flex;
   justify-content: space-between; }
 
@@ -1083,7 +1086,7 @@ i:hover {
 .project-container-odd, .project-container-even {
   transform: skewY(-3deg); }
 
-.project07, .project06, .project04, .project03, .project02, .project01 {
+.project08, .project07, .project06, .project04, .project03, .project02, .project01 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1100,7 +1103,7 @@ i:hover {
 .project07 .project-text, .project03 .project-text, .project01 .project-text {
   order: -1; }
 
-.project06, .project04, .project02 {
+.project08, .project06, .project04, .project02 {
   text-align: right; }
 
 .project02 {
