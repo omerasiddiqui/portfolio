@@ -107,31 +107,3 @@ $contactForm.waypoint(function() {
     offset: '50%'
   });
 
-/////////////////////////////////////////////////////////////////////////
-
-// EMAIL VALIDATION
-
-//  Email validation
-function validateEmail(email) {
-  let re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(email);
-}
-
-// Submission function
-function validate() {
-  let email = $("#email").val();
-
-// Change submit button to green if it validates and sends
-  if (validateEmail(email)) {
-
-    $("button").css("background-color", "green");
-
-// Error message
-  } else {
-    $(".invalid").addClass("show");
-  }
-  return false;
-}
-
-// Run submission function
-$("#submit").on("click", validate);
